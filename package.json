@@ -13,7 +13,8 @@
     "coverage": "jest --coverage",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "lint-staged": {
     "src/**/*": [
@@ -44,6 +45,7 @@
     "@storybook/addon-links": "^6.5.12",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.5.12",
+    "@storybook/storybook-deployer": "^2.8.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.1.0",
